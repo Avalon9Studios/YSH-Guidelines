@@ -153,3 +153,22 @@
 	color: #7a7a7a;
 	margin-top: -12px;
 }
+
+.colourbox {
+	width: 100%;
+	float: left;
+	font-size: 12px;
+	height: 180px;
+	border-radius: 5px;
+	margin-top: 5px;
+	padding-top: 13px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+
+.swatch-footer {
+	opacity: 0.6;
+	font-size: 12px;
+    bottom: 8px;
+    position: absolute;
+}
