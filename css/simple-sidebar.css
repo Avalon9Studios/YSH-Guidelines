@@ -14,6 +14,13 @@
     transition: all 0.5s ease;
 }
 
+::selection {
+  background: #FFFBCC; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
 #wrapper.toggled {
     padding-left: 200px;
 }
@@ -133,4 +140,16 @@
         position: relative;
         margin-right: 0;
     }
+}
+
+.cl-caption-title {
+	font-weight: bold;
+	margin-top: 6px;
+	color: #454545;
+}
+
+.cl-caption-text {
+	font-size: 12px;
+	color: #7a7a7a;
+	margin-top: -12px;
 }
