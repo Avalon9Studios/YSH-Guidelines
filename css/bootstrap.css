@@ -279,7 +279,8 @@ th {
     display: none;
   }
   .btn > .caret,
-  .dropup > .btn > .caret {
+  .dropup > .
+   > .caret {
     border-top-color: #000 !important;
   }
   .label {
@@ -3037,7 +3038,8 @@ select[multiple].form-group-lg .form-control {
   font-size: 14px;
   font-weight: normal;
   line-height: 1.42857143;
-  text-align: center;
+  text-align: center; 
+  font-family: 'GT Walsheim';
   white-space: nowrap;
   vertical-align: middle;
   -ms-touch-action: manipulation;
@@ -3087,6 +3089,7 @@ fieldset[disabled] .btn {
   background-color: #fff;
   border-color: #ffffff;
   font-family: "FA", sans-serif, 'GT-Walsheim';
+  font-family: 'GT Walsheim';
 }
 .btn-default:hover,
 .btn-default.focus,
